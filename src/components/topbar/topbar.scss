@@ -58,7 +58,7 @@
         
         .hamburger
         {
-
+            overflow-y: hidden;
             width: 32px;
             height: 25px;
             display: flex;
@@ -80,8 +80,10 @@
     {
         background-color: $mainColor;
         color: white;
+
         .hamburger
         {
+            overflow-y: hidden;
             span
             {
                 &:first-child
