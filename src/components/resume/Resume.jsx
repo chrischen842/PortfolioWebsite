@@ -1,6 +1,7 @@
 import './resume.scss'
 
-export default function Resume() {
+export default function Resume() 
+{
     return (
         <div className='resume' id = 'resume'>
             

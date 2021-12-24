@@ -31,6 +31,11 @@
             text-decoration: none;
             color: inherit;
             margin-right: 40px;
+
+            &:hover
+            {
+                font-weight: 900;
+            }
         }
 
         .itemContainer
@@ -50,13 +55,10 @@
                 font-style: 15px;
                 font-weight: 500;
             }
-
-            
         }
     }
     .right
     {
-        
         .hamburger
         {
             overflow-y: hidden;
