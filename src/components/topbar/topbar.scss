@@ -34,7 +34,8 @@
 
             &:hover
             {
-                font-weight: 900;
+                text-shadow: 0 0 1px black;
+                text-shadow: 0 0 1px black, 0 0 1px black; //bolder
             }
         }
 
@@ -42,7 +43,7 @@
         {
             display: flex;
             align-items: center;
-            margin-left: 30px;
+            margin-left: 50px;
 
             .icon
             {
