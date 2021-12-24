@@ -5368,6 +5368,11 @@
     "html-escaper" "^2.0.0"
     "istanbul-lib-report" "^3.0.0"
 
+"ityped@^1.0.3":
+  "integrity" "sha512-46Qnh3qs+6EJlWDHmvWRW6qiz5jFy2mkh9UvtTvQmLJMZIjKrdz4du68le7hLX4tAWCp6QTKiq/OuLv6huHxZg=="
+  "resolved" "https://registry.npmjs.org/ityped/-/ityped-1.0.3.tgz"
+  "version" "1.0.3"
+
 "jake@^10.6.1":
   "integrity" "sha512-eLpKyrfG3mzvGE2Du8VoPbeSkRry093+tyNjdYaBbJS9v17knImYGNXQCUV0gLxQtF82m3E8iRb/wdSQZLoq7A=="
   "resolved" "https://registry.npmjs.org/jake/-/jake-10.8.2.tgz"
