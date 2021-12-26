@@ -2,4 +2,116 @@
 {
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .arrow
+    {
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+
+        &.left
+        {
+            left: 100px;
+            transform: rotateY(180deg);
+        }
+    }
+
+    .slider
+    {
+        height: 350px;
+        display: flex;
+        position: absolute;
+        left: 0;
+
+        .container
+        {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item
+            {
+                width: 800px;
+                height: 100%;
+                background-color: black;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .left
+                {
+                    flex: 6;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .leftContainer
+                    {
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .imageContainer
+                        {
+                            width: 40px;
+                            height: 40px;
+                            display: flex;
+                            align-content: center;
+                            justify-content: center;
+
+                            img
+                            {
+                                width: 50px;
+                            }
+                        }
+
+                        h2
+                        {
+                            color: white;
+                            font-style: 20px;
+                        }
+
+                        p
+                        {
+                            color: white;
+                            font-size: 13px;
+                        }
+
+                        span
+                        {
+                            color: white;
+                            font-style: 12px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .right
+                {
+                    flex: 6;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow-y: hidden;
+                    
+                    img
+                    {
+                        width: 400px;
+                        transform: rotate(-10deg);
+                    }
+                }
+            }
+        }
+    }
 }

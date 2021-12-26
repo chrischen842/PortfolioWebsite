@@ -11,7 +11,6 @@
         {
             width: 1000px;
             height: 1000px;
-            background-color: crimson;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -43,6 +42,8 @@
             {
                 font-size: 130px;
                 margin: 10px 0; 
+                box-sizing: border-box;
+                background-color:yellow;
             }
 
             h2
@@ -83,8 +84,8 @@
 
             img
             {
-                width: 30px;
-                animation: flashingArrow 2s infinite;
+                width: 100px;
+                animation: flashingArrow 1s infinite;
             }
 
             @keyframes flashingArrow
