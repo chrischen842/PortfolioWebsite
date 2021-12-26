@@ -42,7 +42,7 @@
             {
                 width: 800px;
                 height: 100%;
-                background-color: rgb(255, 255, 255);
+                background-color: black;
                 border-radius: 20px;
                 display: flex;
                 align-items: center;
@@ -80,16 +80,19 @@
 
                         h2
                         {
+                            color: white;
                             font-style: 20px;
                         }
 
                         p
                         {
+                            color: white;
                             font-size: 13px;
                         }
 
                         span
                         {
+                            color: white;
                             font-style: 12px;
                             font-weight: 600;
                             text-decoration: underline;
