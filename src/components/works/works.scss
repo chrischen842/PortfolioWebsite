@@ -40,7 +40,7 @@
 
             .item
             {
-                width: 800px;
+                width: 700px;
                 height: 100%;
                 background-color: black;
                 border-radius: 20px;
@@ -103,17 +103,23 @@
 
                 .right
                 {
-                    overflow: hidden;
                     flex: 6;
                     height: 100%;
                     display: flex;
                     align-items: center;
-                    justify-content: center;
+                    justify-content: space-between;
                     
-                    img
+                    .imageContainer
                     {
-                        width: 400px;
-                        transform: rotate(-10deg);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+
+                        img
+                        {
+                            width: 400px;
+                        }
                     }
                 }
             }

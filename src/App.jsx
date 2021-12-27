@@ -6,9 +6,9 @@ import Contact from "./components/contact/Contact";
 import Works from "./components/works/Works";
 import Menu from "./components/menu/Menu";
 import Resume from "./components/resume/Resume";
+import Portfolio from './components/portfolio/Portfolio';
 
 import { useState } from "react";
-
 
 function App()
 {
@@ -20,6 +20,7 @@ function App()
         <div className="sections">
           <Intro/>
           <AboutMe/>
+          <Portfolio/>
           <Works/>
           <Resume/>
           <Contact/>
