@@ -21,7 +21,9 @@ export default function Works()
                         </div>    
                     </div>        
                     <div className='right'></div>
-                        <img src="static/friendlybot.png" alt="" />
+                        <div className='imageContainer'>
+                            <img src="static/fbtest.png" alt="" />
+                        </div>
                 </div>
             </div>
         </div>
