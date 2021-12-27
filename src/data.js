@@ -17,7 +17,7 @@ export const fullStackPortfolio = [
 export const reactAppPortfolio = [
     {
         id: 1,
-        title: 'Connect Four Web Application',
+        title: 'Connect Four',
         img: '',
     }
 ];
@@ -25,7 +25,7 @@ export const reactAppPortfolio = [
 export const rpgPortfolio = [
     {
         id: 1,
-        title: 'Adventure Quest RPG Game',
-        img: '',
+        title: 'Slime Slayer',
+        img: 'static/rpggame.png',
     }
 ];
