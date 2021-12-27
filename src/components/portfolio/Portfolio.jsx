@@ -16,7 +16,7 @@ export default function Portfolio() {
                         src="static/discordicon.png" 
                         alt="" 
                     />
-                    <h3>Discord Python Bot</h3>
+                    <h3>Click Me!</h3>
                 </div>
             </div>
         </div>

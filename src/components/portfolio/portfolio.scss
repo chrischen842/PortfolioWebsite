@@ -11,6 +11,7 @@
     {
         font-size: 50px;
     }
+
     ul
     {
         margin: 10px;
@@ -24,8 +25,7 @@
             margin-right: 50px;
             padding: 7px;
             border-radius: 10px;
-            cursor: pointer;
-            
+            cursor: pointer; 
 
             &.active
             {
