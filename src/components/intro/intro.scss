@@ -38,12 +38,17 @@
             flex-direction: column;
             justify-content: center;
 
-            h1
+            .name
             {
-                font-size: 130px;
-                margin: 10px 0; 
-                box-sizing: border-box;
-                background-color:yellow;
+                h1
+                {
+                    height: 100%;
+                    width: 67.418%;
+                    font-size: 130px;
+                    margin: 10px 0px; 
+                    box-sizing: border-box;
+                    background-color:yellow;
+                }
             }
 
             h2

@@ -19,11 +19,11 @@ function App()
       <Menu openMenu = {openMenu} setOpenMenu = {setOpenMenu}/>
         <div className="sections">
           <Intro/>
-          {/* <AboutMe/> */}
-          <Portfolio/>
+          <AboutMe/>
           <Works/>
+          <Portfolio/>
           {/* <Resume/> */}
-          <Contact/>
+          {/* <Contact/> */}
         </div>
     </div>
   );

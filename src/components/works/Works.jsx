@@ -47,30 +47,30 @@ export default function Works()
 
     return (
     <div className='works' id = 'works'>
-        <div 
-            className='slider' 
-            style = {{transform: `translateX(-${currentSlide * 100}vw)`}}
-        >
-            {data.map(d => (
-            <div className='container'>
-                <div className='item'>
-                    <div className='left'>
-                        <div className="leftContainer">
-                            <div className="imageContainer">
-                                <img src={d.icon} alt="" />
+        <h1>Projects</h1>
+            <div 
+                className='slider' 
+                style = {{transform: `translateX(-${currentSlide * 100}vw)`}}
+            >
+                {data.map(d => (
+                <div className='container'>
+                    <div className='item'>
+                        <div className='left'>
+                            <div className="leftContainer">
+                                <div className="imageContainer">
+                                    <img src={d.icon} alt="" />
+                                </div>
+                                <h2>{d.title}</h2>
+                                <p>{d.desc}</p>
+                            </div>    
+                        </div>        
+                        <div className='right'></div>
+                            <div className='imageContainer'>
+                                <img src={d.img} alt="" />
                             </div>
-                            <h2>{d.title}</h2>
-                            <p>{d.desc}</p>
-                            <a href={d.link} target="_blank" rel="noopener noreferrer" ><span>GitHub</span></a>
-                        </div>    
-                    </div>        
-                    <div className='right'></div>
-                        <div className='imageContainer'>
-                            <img src={d.img} alt="" />
-                        </div>
-                </div>
-            </div>))}
-        </div>
+                    </div>
+                </div>))}
+        </div> 
         <img src="static/arrow.png" className='arrow left' alt="" onClick = {() => handleClick('left')}/>
         <img src="static/arrow.png" className='arrow right' alt="" onClick = {() => handleClick()}/>
     </div>

@@ -44,35 +44,32 @@ export default function Portfolio()
                 setData(rpgPortfolio);
                 break;
             default:
-                    setData(pythonPortfolio);
+                setData(pythonPortfolio);
 
         }
      }, [selected]);
 
     return (
         <div className="portfolio" id = 'portfolio'>
-            <h1>Works Directory</h1>
-            <ul>
-                {list.map(item => (
-                    <PortfolioList 
-                        title ={item.title} 
-                        active = {selected === item.id} 
-                        setSelected = {setSelected}
-                        id = {item.id}
-                    />
-                ))}
-            </ul>
-            <div className="container">
-                {data.map(d =>(
-                <div className="item">
-                    <img 
-                        src={d.img}
-                        alt="" 
-                    />
-                    <h3>{d.title}</h3>
+            <h1>GitHub Directory</h1>
+                <ul>
+                    {list.map(item => (
+                        <PortfolioList 
+                            title ={item.title} 
+                            active = {selected === item.id} 
+                            setSelected = {setSelected}
+                            id = {item.id}
+                        />
+                    ))}
+                </ul>
+                <div className="container">
+                    {data.map(d =>(
+                    <div className="item">
+                        <a href={d.link} target="_blank" rel="noopener noreferrer"><img src={d.img}alt="" /></a>
+                    </div>
+                    ))}
                 </div>
-                ))}
-            </div>
+            <a className="footer" href="static/ChrisChen.pdf" download>Resume</a>
         </div>
     )
 }

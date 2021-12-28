@@ -6,6 +6,16 @@
     justify-content: center;
     position: relative;
 
+    h1
+    {
+        position: relative;
+        bottom: 320px;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+        text-decoration: underline;
+    }
+
     .arrow
     {
         height: 60px;
@@ -14,12 +24,12 @@
 
         &.left
         {
-            left: 150px;
+            left: 450px;
             transform: rotate(180deg);
         }
         &.right
         {
-            right: 150px;
+            right: 450px;
         }
     }
 
