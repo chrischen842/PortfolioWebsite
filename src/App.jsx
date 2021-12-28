@@ -5,7 +5,6 @@ import AboutMe from "./components/aboutMe/AboutMe";
 import Contact from "./components/contact/Contact";
 import Works from "./components/works/Works";
 import Menu from "./components/menu/Menu";
-import Resume from "./components/resume/Resume";
 import Portfolio from './components/portfolio/Portfolio';
 
 import { useState } from "react";
