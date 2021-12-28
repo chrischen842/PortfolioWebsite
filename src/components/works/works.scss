@@ -15,12 +15,11 @@
         &.left
         {
             left: 150px;
-            transform: rotate(90deg);
+            transform: rotate(180deg);
         }
         &.right
         {
             right: 150px;
-            transform: rotate(270deg);
         }
     }
 
@@ -30,7 +29,7 @@
         display: flex;
         position: absolute;
         left: 0;
-
+        transition: all 1s ease-out;
         .container
         {
             width: 100vw;

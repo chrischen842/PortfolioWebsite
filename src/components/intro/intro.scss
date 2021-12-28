@@ -84,6 +84,7 @@
 
             img
             {
+                transform: rotate(90deg);
                 width: 100px;
                 animation: flashingArrow 1s infinite;
             }

@@ -10,7 +10,7 @@ export const fullStackPortfolio = [
     {
         id: 1,
         title: 'Full Stack Application',
-        img: '',
+        img: 'static/fullstack.png',
     }
 ];
 
@@ -18,7 +18,7 @@ export const reactAppPortfolio = [
     {
         id: 1,
         title: 'Connect Four',
-        img: 'static/connectfour.png',
+        img: 'static/connectfouricon.png',
     }
 ];
 
@@ -26,6 +26,6 @@ export const rpgPortfolio = [
     {
         id: 1,
         title: 'Slime Slayer',
-        img: 'static/rpggame.png',
+        img: 'static/rpg.png',
     }
 ];
