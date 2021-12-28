@@ -18,7 +18,7 @@ export const reactAppPortfolio = [
     {
         id: 1,
         title: 'Connect Four',
-        img: '',
+        img: 'connectfour',
     }
 ];
 
