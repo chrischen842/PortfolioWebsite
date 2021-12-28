@@ -1,5 +1,5 @@
 import './topbar.scss'
-import {Phone, Mail} from '@material-ui/icons';
+import {Phone, Mail, Home} from '@material-ui/icons';
 
 export default function Topbar({openMenu, setOpenMenu}) 
 {
@@ -7,7 +7,9 @@ export default function Topbar({openMenu, setOpenMenu})
         <div className= {'topbar ' + (openMenu && "active")}>
             <div className='wrapper'>
                 <div className='left'>
-                    <a href='#intro' className='logo'>Home.</a>
+                    <div className='itemContainer'>
+                        <Home className='home' onClick={() => window.location.replace('#intro')}/>
+                    </div>
                     <div className="itemContainer">
                         <Phone className='icon'/>
                         <span>+1 (647)-822-8765</span>

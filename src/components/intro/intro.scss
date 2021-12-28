@@ -27,6 +27,7 @@
 
     .right
     {
+        overflow: hidden;
         flex: 0.5;
         position: relative;   
         .wrapper
@@ -42,8 +43,9 @@
             {
                 h1
                 {
-                    height: 100%;
-                    width: 67.418%;
+                    overflow: hidden;
+                    height: 80%;
+                    width: 67%;
                     font-size: 130px;
                     margin: 10px 0px; 
                     box-sizing: border-box;
@@ -66,7 +68,7 @@
 
                 .ityped-cursor
                 {
-                    animation: blink 1s infinite;
+                    animation: blink 2s infinite;
                 }
 
                 @keyframes blink
@@ -81,23 +83,26 @@
             }
         }
     
-        a
+        &:hover
         {
-            position: absolute;
-            bottom: 10px;
-            left: 40%;
-
-            img
+            a
             {
-                transform: rotate(90deg);
-                width: 100px;
-                animation: flashingArrow 1s infinite;
-            }
+                position: absolute;
+                bottom: 10px;
+                left: 40%;
 
-            @keyframes flashingArrow
-            {
-                100%{
-                    opacity: 0;
+                img
+                {
+                    transform: rotate(90deg);
+                    width: 100px;
+                    animation: flashingArrow 4s infinite;
+                }
+
+                @keyframes flashingArrow
+                {
+                    100%{
+                        opacity: 0;
+                    }
                 }
             }
         }
