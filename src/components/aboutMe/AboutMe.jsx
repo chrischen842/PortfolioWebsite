@@ -12,7 +12,7 @@ export default function AboutMe()
                 </div>
                 <div className='textContainer'>
                     <p className='text'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo, eum rerum molestiae repellat, deleniti delectus labore, esse ratione debitis id doloremque cupiditate veritatis placeat autem error ipsa deserunt earum.
+                        My name is Chris Chen and I am a third year Software Engineering Student who is currently studying at the University of Western Ontario. My interests include coding, gaming, and trying various foods from different cultures.  
                     </p>
                 </div>  
                 <div className='icon'>
