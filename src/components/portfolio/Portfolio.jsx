@@ -62,14 +62,13 @@ export default function Portfolio()
                         />
                     ))}
                 </ul>
-                <div className="container">
-                    {data.map(d =>(
-                    <div className="item">
-                        <a href={d.link} target="_blank" rel="noopener noreferrer"><img src={d.img}alt="" /></a>
-                    </div>
-                    ))}
+            <div className="container">
+                {data.map(d =>(
+                <div className="item">
+                    <a href={d.link} target="_blank" rel="noopener noreferrer"><img src={d.img}alt="" /></a>
                 </div>
-            <a className="footer" href="static/ChrisChen.pdf" download>Resume</a>
+                ))}
+            </div>
         </div>
     )
 }
