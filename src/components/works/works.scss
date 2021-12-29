@@ -24,18 +24,18 @@
 
         &.left
         {
-            left: 450px;
+            left: 400px;
             transform: rotate(180deg);
         }
         &.right
         {
-            right: 450px;
+            right: 400px;
         }
     }
 
     .slider
     {
-        height: 350px;
+        height: 500px;
         display: flex;
         position: absolute;
         left: 0;
@@ -49,18 +49,19 @@
 
             .item
             {
-                width: 700px;
+                width: 900px;
                 height: 100%;
                 background-color: black;
                 border-radius: 20px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                overflow: hidden;
 
                 .left
                 {
-                    flex: 6;
-                    height: 80%;
+                    flex: 12;
+                    height: 130%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -68,7 +69,7 @@
                     .leftContainer
                     {
                         width: 90%;
-                        height: 70%;
+                        height: 40%;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -90,13 +91,13 @@
                         h2
                         {
                             color: white;
-                            font-style: 20px;
+                            font-style: 30px;
                         }
 
                         p
                         {
                             color: white;
-                            font-size: 13px;
+                            font-size: 20px;
                         }
 
                         span
@@ -112,7 +113,8 @@
 
                 .right
                 {
-                    flex: 6;
+                    background-color: green;
+                    flex: 0;
                     height: 100%;
                     display: flex;
                     align-items: center;

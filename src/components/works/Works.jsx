@@ -10,8 +10,8 @@ export default function Works()
             id: '1',
             icon: 'static/discord.png',
             title: 'Discord Python Bot',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-            img: 'static/friendlybot.png',
+            desc: "I made a python discord bot that provides positive encouragement when it detects sad words via discord chat. This is done through a list of sad words which the discord bot will search and compare. You are also given the ability to add new sad keywords or encouragements.",
+            img: 'static/fbtest.png',
             link: 'https://github.com/chrischen842/Friendly-Bot',
         },
         {
@@ -57,9 +57,6 @@ export default function Works()
                     <div className='item'>
                         <div className='left'>
                             <div className="leftContainer">
-                                <div className="imageContainer">
-                                    <img src={d.icon} alt="" />
-                                </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
                             </div>    
