@@ -1,4 +1,30 @@
+@import "../../global.scss";
+
 .aboutMe
 {
     background-color: white;
+    overflow: hidden;
+
+    .wrapper
+    {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 3rem;
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .icon
+    {
+        transform: scale(1);
+        font-style: 18px;
+        margin-right: 5px;
+        cursor: pointer;
+        &:hover
+        {
+            transform: scale(1.3);
+            color: red;
+        }
+    }
 }
