@@ -21,8 +21,8 @@ export default function AboutMe()
                     <Facebook onClick={() => window.open('https://www.facebook.com/chris.chen.102977', "_blank")}/>  
                     <Instagram onClick={() => window.open('https://www.instagram.com/chrs999/', "_blank")}/>  
                 </div>     
-                <div>
-                          
+                <div className='button'>
+                    <a className="text" href="static/ChrisChen.pdf" download>Resume</a>
                 </div>
             </div>
         </div>
