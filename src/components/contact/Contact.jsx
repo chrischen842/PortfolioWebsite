@@ -2,7 +2,6 @@ import './contact.scss'
 
 export default function Contact()
 {
-
     return(
         <div className= 'contact' id = 'contact'>
             <div className='left'>
@@ -13,7 +12,7 @@ export default function Contact()
                 <form action = "https://formsubmit.co/chrischen842@gmail.com" method = "POST">
                     <input type="hidden" name="_subject" value="new email"/>
                     <input type="email" name="Email" placeholder="Email Address" required/>
-                    <input className='textarea' type="text" name="Message" placeholder="Message" required/>
+                    <textarea className="textField" type="text" name="Message" placeholder="Message" required/>                   
                     <button type="submit">Send</button>
                 </form>
             </div>
