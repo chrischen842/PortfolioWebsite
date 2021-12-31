@@ -18,9 +18,6 @@ export default function Menu({openMenu, setOpenMenu})
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li onClick = {() => setOpenMenu(false)}>
-                    <a href = '#resume'>Resume</a>
-                </li>
-                <li onClick = {() => setOpenMenu(false)}>
                     <a href = '#contact'>Contacts</a>
                 </li>
             </ul>
