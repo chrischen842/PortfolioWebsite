@@ -20,7 +20,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around
+        justify-content: center;
 
         h2
         {
@@ -29,8 +29,8 @@
 
         form
         {
-            width: 70%;
-            height: 70%;
+            width: 50%;
+            height: 50%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -45,12 +45,9 @@
 
             .textarea
             {
-                display: flex;
                 width: 300px;
                 height: 200px;
                 font-size: 14px;
-                align-items: center;
-                justify-content: center;
             }
 
             button
@@ -68,6 +65,15 @@
                 {
                     outline: none;
                 }
+
+                &:hover
+                {
+                    background-color: rgb(168, 0, 0);
+                }
+            }
+            span
+            {
+                color: black;
             }
         }
     }

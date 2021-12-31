@@ -69,9 +69,6 @@ export default function Portfolio()
                 </div>
                 ))}
             </div>
-            <div className="footer">
-                <p>Thank you for viewing this page! </p>                  
-            </div>
         </div>
     )
 }
