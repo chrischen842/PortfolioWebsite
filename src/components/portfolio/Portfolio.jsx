@@ -2,6 +2,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {useEffect, useState} from 'react';
 import {pythonPortfolio,
+    websitePortfolio,
     fullStackPortfolio,
     reactAppPortfolio,
     rpgPortfolio} from '../../data.js';
@@ -20,6 +21,10 @@ export default function Portfolio()
             title: 'Full Stack App',
         },
         {
+            id: 'website',
+            title: 'Personal Website',
+        },
+        {
             id: 'reactApp',
             title: 'React Web App',
         },
@@ -36,6 +41,9 @@ export default function Portfolio()
                 break;
             case 'fullStack':
                 setData(fullStackPortfolio);
+                break;
+            case 'website':
+                setData(websitePortfolio);
                 break;
             case 'reactApp':
                 setData(reactAppPortfolio);

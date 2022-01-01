@@ -20,10 +20,18 @@ export default function Works()
             title: 'Full Stack Application',
             desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
             img: '',
-            link: '',
+            link: 'https://github.com/chrischen842/BlogApp',
         },
         {
             id: '3',
+            icon: 'static/fullstackicon.png',
+            title: 'Personal Website',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+            img: 'static/website.png',
+            link: 'https://github.com/chrischen842/PortfolioWebsite',
+        },
+        {
+            id: '4',
             icon: 'static/r.png',
             title: 'Connect Four',
             desc: 'I constructed this replica of connect four for my Web Technologies course. The rules of this game are the same as the traditional connect four games where the goal is to get four coins in a row, column, or diagonally. Additionally, this game was coded in react and from this assignment, I learned a lot about how to use and apply the concepts of react.',
@@ -31,7 +39,7 @@ export default function Works()
             link: 'https://github.com/ShaimaaAliECE/lab2-chrischen842',
         },
         {
-            id: '4',
+            id: '5',
             icon: 'static/rpgicon.png',
             title: 'Slime Slayer',
             desc: 'My group and I constructed Slime Slayer in Unity for our Software Construction course as our final project. The development of this game was split into 3 phases where we carefully designed the game along with all the UML diagrams concerning this game. Additionally, the majority of this game being coded in C#.',

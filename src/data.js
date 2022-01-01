@@ -12,7 +12,16 @@ export const fullStackPortfolio = [
         id: 1,
         title: 'Full Stack Application',
         img: 'static/fullstack.png',
-        link: '',
+        link: 'https://github.com/chrischen842/BlogApp',
+    }
+];
+
+export const websitePortfolio = [
+    {
+        id: 1,
+        title: 'Personal Website',
+        img: 'static/web.png',
+        link: 'https://github.com/chrischen842/PortfolioWebsite',
     }
 ];
 
