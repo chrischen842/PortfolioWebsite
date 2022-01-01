@@ -26,7 +26,7 @@ export default function Works()
             id: '3',
             icon: 'static/fullstackicon.png',
             title: 'Personal Website',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+            desc: 'I coded this website as a side project to display a portfolio of my works creatively. I felt that coding a website would not only make my job applications stand out but would also benefit me to become more comfortable with react. By coding this website, I learned a lot about front-end web development which will ultimately benefit me in the future.',
             img: 'static/website.png',
             link: 'https://github.com/chrischen842/PortfolioWebsite',
         },
