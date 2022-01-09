@@ -10,7 +10,7 @@ export const pythonPortfolio = [
 export const fullStackPortfolio = [
     {
         id: 1,
-        title: 'Full Stack Application',
+        title: 'Full Stack Blog App',
         img: 'static/fullstack.png',
         link: 'https://github.com/chrischen842/BlogApp',
     }

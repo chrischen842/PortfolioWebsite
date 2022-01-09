@@ -18,7 +18,7 @@ export default function Portfolio()
         },
         {
             id: 'fullStack',
-            title: 'Full Stack App',
+            title: 'Blog App',
         },
         {
             id: 'website',

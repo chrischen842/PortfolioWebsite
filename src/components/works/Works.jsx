@@ -17,9 +17,9 @@ export default function Works()
         {
             id: '2',
             icon: 'static/fullstackicon.png',
-            title: 'Full Stack Application',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-            img: '',
+            title: 'Full Stack Blog App',
+            desc: 'I coded this blog app when I realized that I never actually tried coding a full stack application. I felt that one of the challenges was actually connecting the front and back ends together as there were so many variables that could have affeceted the final product.  In making this full stack application, I felt that I was able to learn a lot about how to create the front and back ends of this blog application along with connecting it to create a fully functional blog app!',
+            img: 'static/blog.png',
             link: 'https://github.com/chrischen842/BlogApp',
         },
         {

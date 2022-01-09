@@ -9,16 +9,16 @@ export default function Menu({openMenu, setOpenMenu})
                     <a href = '#intro'>Home</a>
                 </li>
                 <li onClick = {() => setOpenMenu(false)}>
-                    <a href = '#aboutMe'>About Me</a>
+                    <a href = '#aboutMe'>About</a>
                 </li>
                 <li onClick = {() => setOpenMenu(false)}>
-                    <a href = '#works'>Works Directory</a>
+                    <a href = '#works'>Works</a>
                 </li>
                 <li onClick= {() => setOpenMenu(false)}>
-                    <a href="#portfolio">Github Directory</a>
+                    <a href="#portfolio">Github</a>
                 </li>
                 <li onClick = {() => setOpenMenu(false)}>
-                    <a href = '#contact'>Contact Me</a>
+                    <a href = '#contact'>Contact</a>
                 </li>
             </ul>
         </div>
